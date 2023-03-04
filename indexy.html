@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 
     <!-- my css -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Sign-up.css">
 
     <title>NGO Registration</title>
 </head>
@@ -27,37 +27,37 @@
             <form id="form" class="form">
                 <div class="mb-3">
                     <label for="fname">First name</label>
-                    <input type="text"  class="form-control" id="fname" name="fname">
+                    <input type="text"  class="form-control" id="fname" required name="fname" autocomplete="on" >
                 </div> 
                 <div class="mb-3">
                     <label for="lname">Last name</label>
-                    <input type="text" id="lname" name="lname" class="form-control">
+                    <input type="text" id="lname" name="lname" class="form-control" required autocomplete="on">
                 </div> 
                 <div class="mb-3">
                     <label for="phoneNo">Phone number</label>
-                    <input type="tel" id="Pnum" name="Pnum" class="form-control">
+                    <input type="tel" id="Pnum" name="Pnum" class="form-control" required autocomplete="on">
                 </div> 
                 <div class="mb-3">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" class="form-control">
+                    <input type="email" id="email" name="email" class="form-control" required autocomplete="on">
                 </div> 
                 <div class="mb-3">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" class="form-control">
+                    <input type="password" id="password" name="password" class="form-control" required >
                 </div>
                 <div class="mb-3">
                     <label for="confirmPass">confirm password</label>
-                    <input type="password" id="confirmPass" name="confirmPass" class="form-control">
+                    <input type="password" id="confirmPass" name="confirmPass" class="form-control" required >
                 </div> 
                 <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick="checkPass()">
+                    <input type="checkbox" class="form-check-input" required id="exampleCheck1" onclick="checkPass()">
                     <label class="form-check-label" for="exampleCheck1" >Check me out</label>
                   </div>   
                 <button type="submit" class="btn btn-outline-warning" onclick="exit()">Submit</button>
         </div>
     </div>
 
-<script src="index.js"></script>
+<script src="Sign-up.js"></script>
     
 </body>
 </html>

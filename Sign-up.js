@@ -7,12 +7,9 @@ function exit() {
     card.style.visibility = "hidden";
     body.classList.add("body");
     body.innerHTML= "Thanks for registering";
-    var input = document.querySelectorAll("input");
-    for(let i=0; i<input.length; i++){
-        if(input[i].value===''){
-            alert("Please fill all fields")
-        }
-    }
+    window. open("https://harshitkandpal.github.io/One-piece_TechNightCSI/","_self");
+    
+    
 }
 
 function checkPass() {

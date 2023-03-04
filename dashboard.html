@@ -26,41 +26,58 @@
 <body>
     <div class="sidenav">
         <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
+        <a href="#">Sign-in</a>
+        <a href="#">Landpage</a>
         <a href="#">Contact</a>
       </div>
-      <div class="main"> 
-        <button type="button" class="btn">
+      <div class="main">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><i class="fa-solid fa-desktop"></i> Preview</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-light" type="submit" onclick="tip()"> <i class="fas fa-lightbulb    "></i></button>
+                    <button class="btn btn-success" type="submit">Publish</button>
+                </form>
+              </div>
+            </div>
+          </nav> 
+        <button type="button" class="btnM">
             + Header
         </button>
-          <header class="bdr">
+          <header class="bdr" data-mdb-toggle="tooltip" title="Edit!">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6">
-                        <img src="img\lead-k43H--621x414@LiveMint.jpg" class="bdr" alt="">
+                        <img src="img\lead-k43H--621x414@LiveMint.jpg" class="bdr" data-mdb-toggle="tooltip" title="Edit!" alt="">
                     </div>
                     <div class="col-12 col-md-6">
-                        <h1 class="bdr">
+                        <h1 class="bdr Title" data-mdb-toggle="tooltip" title="Edit!">
                             Everything you need to build a website.
                         </h1>
                     </div>
                 </div>
             </div>
           </header>
-          <button type="button" class="btn">
+          <button type="button" class="btnM">
               + Navbar 
           </button>
-          <main class="bdr">
+          <main class="bdr" data-mdb-toggle="tooltip" title="Edit!">
             <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme = "dark">
                 <div class="container-fluid ">
-                    <a class="navbar-brand bdr" href="#">
+                    <a class="navbar-brand bdr" data-mdb-toggle="tooltip" title="Edit!" href="#">
                         LOGO
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse bdr" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse bdr" data-mdb-toggle="tooltip" title="Edit!" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link active" aria-current="page" href="#About">About</a>
                             <a class="nav-link" href="#Work">WorkTillNow</a>
@@ -77,13 +94,17 @@
                 </div>
             </nav>
           </main>
-          <button type="button" class="btn">
+          <section class="section">
+            <button>sad</button>
+            <button>sadad</button>
+          </section>
+          <button type="button" class="btnM">
               + Footer
           </button>
-          <footer id="contacts" class="bdr">
+          <footer id="contacts" class="bdr" data-mdb-toggle="tooltip" title="Edit!">
               <div class="container text-center">
                   <div class="row">
-                      <div class="col-12 col-md-4 bdr">
+                      <div class="col-12 col-md-4 bdr" data-mdb-toggle="tooltip" title="Edit!">
                           <h1>Contacts</h1>
                           <address>
                               sashbda <br>
@@ -92,7 +113,7 @@
                               873729711976510857 <br>
                           </address>
                       </div>
-                    <div class="col-12 col-md-4 bdr">
+                    <div class="col-12 col-md-4 bdr" data-mdb-toggle="tooltip" title="Edit!">
                       <h1>Social media</h1>
                       <div class="container text-center icon">
                                   <a href=""><i class="fa fa-linkedin fa-2x "></i></a>
@@ -101,7 +122,7 @@
                       </div>
                       
                     </div>
-                    <div class="col-12 col-md-4 donate bdr">
+                    <div class="col-12 col-md-4 donate bdr"data-mdb-toggle="tooltip" title="Edit!" >
                       <h1>Donate</h1>
                       <a href=""><i class="fa-solid fa-hand-holding-dollar fa-4x"></i></a>
                       <p>Lend a hand with your donation. Actions speak louder than words! Give today. Giving little can help a lot.</p>
@@ -110,5 +131,6 @@
           </footer>
       </div>
     <script src="https://kit.fontawesome.com/df8452e374.js" crossorigin="anonymous"></script>
+    <script src="dashboard.js"></script>
 </body>
 </html>

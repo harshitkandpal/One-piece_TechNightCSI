@@ -25,10 +25,10 @@
 </head>
 <body>
     <div class="sidenav">
-        <a href="#">About</a>
-        <a href="#">Sign-in</a>
-        <a href="#">Landpage</a>
-        <a href="#">Contact</a>
+        <a href="home.html">About</a>
+        <a href="index.html">Sign-in</a>
+        <a href="home.html">Landpage</a>
+        <a href="#contacts">Contact</a>
       </div>
       <div class="main">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -39,7 +39,6 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <button class="btn btn-light" type="submit" onclick="tip()"> <i class="fas fa-lightbulb    "></i></button>
@@ -94,9 +93,45 @@
                 </div>
             </nav>
           </main>
-          <section class="section">
-            <button>sad</button>
-            <button>sadad</button>
+          <section class="section bdr" data-mdb-toggle="tooltip" title="Edit!"">
+            <button type="button" class="btnM" style="top: 1vh;">
+              + Form 
+          </button>
+            <div class="container-fluid card" id="card" style="max-width: 45vw; min-width: 400px ; ">
+              <div >
+                  <h1 >Registration Form </h1>
+                  <form id="form" class="form" style="height: 76vh; margin-top: 2vh ;">
+                      <div class="mb-3">
+                          <label for="fname">First name</label>
+                          <input type="text"  class="form-control" id="fname" name="fname">
+                      </div> 
+                      <div class="mb-3">
+                          <label for="lname">Last name</label>
+                          <input type="text" id="lname" name="lname" class="form-control">
+                      </div> 
+                      <div class="mb-3">
+                          <label for="phoneNo">Phone number</label>
+                          <input type="tel" id="Pnum" name="Pnum" class="form-control">
+                      </div> 
+                      <div class="mb-3">
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" class="form-control">
+                      </div> 
+                      <div class="mb-3">
+                          <label for="password">Password</label>
+                          <input type="password" id="password" name="password" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                          <label for="confirmPass">confirm password</label>
+                          <input type="password" id="confirmPass" name="confirmPass" class="form-control">
+                      </div> 
+                      <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+                          <label class="form-check-label" for="exampleCheck1" >Check me out</label>
+                        </div>   
+                      <button type="submit" class="btn btn-outline-warning" >Submit</button>
+              </div>
+          </div>
           </section>
           <button type="button" class="btnM">
               + Footer
@@ -134,3 +169,4 @@
     <script src="dashboard.js"></script>
 </body>
 </html>
+

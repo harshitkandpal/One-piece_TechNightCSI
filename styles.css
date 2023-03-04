@@ -1,0 +1,9 @@
+body{
+    background-color: #4E31AA;
+}
+.card{
+    padding: 0 5%;
+    margin-top: 4vh;
+    background-color: #6D67E4;
+    opacity: 80%;
+}

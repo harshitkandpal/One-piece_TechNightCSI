@@ -36,8 +36,13 @@
   
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav a {padding: 0px;}
+    .sidenav a {font-size: 20px;}
+    .sidenav {width: 20%;}
+    .main  {width:79% ;
+        padding: 0;
+    }
+    
     
   }
 header{
@@ -75,7 +80,7 @@ main{
 .navbar{
     z-index: 0;
 }
-.btn{
+.btnM{
     z-index: 1;
     background-color: #A31ACB;
     padding: 0% 2%;
@@ -99,4 +104,18 @@ main{
     display: block;
     color: white;
     background-color: #818181;
+}
+.btn-light{
+    margin-right: 10%;
+}
+.Title{
+    margin: 8% 14% ;
+    line-height: 6rem;
+}
+.section{
+    background-image: url(img/tree-736885__340.jpg);
+     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+       
 }

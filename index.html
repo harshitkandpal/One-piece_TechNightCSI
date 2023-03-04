@@ -21,10 +21,10 @@
     <title>NGO Registration</title>
 </head>
 <body>
-    <div class="container-fluid card" style="max-width: 50vw; min-width: 400px ;">
-        <div class="card-body">
-            <h1 class="card-header">Registration Form </h1>
-            <form >
+    <div class="container-fluid card" id="card" style="max-width: 50vw; min-width: 400px ;">
+        <div >
+            <h1 >Registration Form </h1>
+            <form id="form" class="form">
                 <div class="mb-3">
                     <label for="fname">First name</label>
                     <input type="text"  class="form-control" id="fname" name="fname">
@@ -50,14 +50,14 @@
                     <input type="password" id="confirmPass" name="confirmPass" class="form-control">
                 </div> 
                 <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" onclick="checkPass()">
+                    <label class="form-check-label" for="exampleCheck1" >Check me out</label>
                   </div>   
-                <button type="submit" class="btn btn-outline-warning">Submit</button>
+                <button type="submit" class="btn btn-outline-warning" onclick="exit()">Submit</button>
         </div>
     </div>
 
-
+<script src="index.js"></script>
     
 </body>
 </html>

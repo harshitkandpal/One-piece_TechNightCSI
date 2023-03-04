@@ -7,7 +7,7 @@ function exit() {
     card.style.visibility = "hidden";
     body.classList.add("body");
     body.innerHTML= "Thanks for registering";
-    window. open("https://harshitkandpal.github.io/One-piece_TechNightCSI/","_self");
+    window. open("home.html","_self");
     
     
 }

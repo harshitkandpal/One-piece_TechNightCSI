@@ -1,5 +1,4 @@
 
-
 body{
     background-color: #E9F8F9;
 }
@@ -41,24 +40,26 @@ header img{
 }
 #carouselExample1{
     background-color: #C0EEF2;
-    margin: 2vh 10vw 2vh 10vw;;
+    margin: 2vh 10vw 2vh 10vw;
 }
-
 #contacts{
-    background-color: #537FE7;
+    background-color: black;
+    color: white;
     margin: 2vh 10vw 2vh 10vw;
 }
 
 .icon a{
-    color: black;
-    margin: 1vh 1vw 1vh 2vw;
+    color: white;
+    margin: 0 2%;
     display: inline;
 }
 .donate a{
-    color: black;
-    margin: 1vh 1vw 1vh 3vw;
+    color: white;
     float: left;
 }
 address{
-    margin: 15% 0;
+ text-align: left;
+}
+.container h1{
+    text-align: left;
 }

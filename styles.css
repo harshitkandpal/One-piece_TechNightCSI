@@ -1,9 +1,11 @@
 body{
-    background-color: #4E31AA;
+    background-image: url("img/back.png");
 }
 .card{
     padding: 0 5%;
     margin-top: 4vh;
-    background-color: #6D67E4;
+    background-color: #2F58CD;
     opacity: 80%;
+    font-weight: bold;
+    color: black;
 }

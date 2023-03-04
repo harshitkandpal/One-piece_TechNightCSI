@@ -119,3 +119,10 @@ main{
     background-size: 100vw 100vh;
        
 }
+.card{
+    padding: 0 5%;
+    background-color:black;
+    opacity: 60%;
+    font-weight: bold;
+    color: white;
+}

@@ -70,6 +70,10 @@ address{
 }
 main{
     background-color: beige;
+    
+}
+.navbar{
+    z-index: 0;
 }
 .btn{
     z-index: 1;
@@ -84,7 +88,15 @@ main{
 .bdr{
     margin:1.2% 0 ;
 }
-.bdr:hover{
+.bdr:hover {
     border: 2px solid ;
     border-color: #A31ACB;
+}
+.hide {
+    display: none;
+  }
+.myDIV:hover + .hide {
+    display: block;
+    color: white;
+    background-color: #818181;
 }

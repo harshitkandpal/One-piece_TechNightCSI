@@ -1,0 +1,24 @@
+body{
+    /* background-image: url("img/back.png"); */
+    background-image: url(img/tree-736885__340.jpg);
+     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+.body{
+    
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+.card{
+    padding: 0 5%;
+    background-color:black;
+    opacity: 60%;
+    font-weight: bold;
+    color: white;
+    margin-top: 4vh;
+}

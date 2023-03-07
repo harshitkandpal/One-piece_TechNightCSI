@@ -1,9 +1,12 @@
+
+// global variable declarations
 let names = document.getElementById("Name-field");
 let title = document.getElementById("title");
 let signIn = document.getElementById("signIn");
 let signUp = document.getElementById("signUp");
+let forget = document.getElementById("Forget");
 
-
+// triggers when sign in is clicked
 signIn.onclick = function signin(){
     let Name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
@@ -13,6 +16,7 @@ signIn.onclick = function signin(){
         title.innerHTML = "Sign In";
         signIn.classList.remove("disabled");
         signUp.classList.add("disabled");
+        forget.classList.remove("hide");
     } else {
         if (email==''|| password=='') {
             alert("Please enter all information");
@@ -23,6 +27,7 @@ signIn.onclick = function signin(){
 }
 
 
+// triggers when sign in is clicked
 signUp.onclick = function signin(){
     let Name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
@@ -32,6 +37,7 @@ signUp.onclick = function signin(){
         title.innerHTML = "Sign Up";
         signIn.classList.add("disabled");
         signUp.classList.remove("disabled");
+        forget.classList.add("hide");
     } else {
         if (email==''|| password==''|| Name=='') {
             alert("Please enter all information");
@@ -40,4 +46,5 @@ signUp.onclick = function signin(){
         }
     }
 }
+
 

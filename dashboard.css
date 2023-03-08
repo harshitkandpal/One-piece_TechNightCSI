@@ -1,4 +1,5 @@
 
+
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -23,7 +24,7 @@
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #6c6c6c;
   }
   
   
@@ -125,4 +126,8 @@ main{
     opacity: 60%;
     font-weight: bold;
     color: white;
+}
+.highlight{
+    background-color: white;
+    font-weight: bold;
 }

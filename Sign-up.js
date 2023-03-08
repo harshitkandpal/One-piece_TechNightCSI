@@ -42,7 +42,7 @@ signUp.onclick = function signin(){
         if (email==''|| password==''|| Name=='') {
             alert("Please enter all information");
         } else {
-            window. open("home.html","_self");
+            window. open("dashboard.html","_self");
         }
     }
 }

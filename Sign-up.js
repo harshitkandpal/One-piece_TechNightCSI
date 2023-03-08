@@ -21,7 +21,7 @@ signIn.onclick = function signin(){
         if (email==''|| password=='') {
             alert("Please enter all information");
         } else {
-            window. open("home.html","_self");
+             window. open("dashboard.html","_self");
         }
     }
 }
